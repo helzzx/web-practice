@@ -4,74 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Контакты</title>
+    <link rel="stylesheet" href="src/assets/styles/style.css">
 </head>
 <body>
+
     <header>
-        <img src="images/logo.png" alt="Логотип" width="100">
-        <nav>
-            <ul>
+        <nav aria-label="Навигация">
+            <ul class="breadcrumbs">
                 <li><a href="index.html">Главная</a></li>
                 <li><a href="contacts.html">Контакты</a></li>
             </ul>
         </nav>
+        <img src="images/logo.png" alt="Логотип" width="100">
     </header>
 
     <main>
-        <h2>Contact Us</h2>
-        <p>Пингвины</p>
+        <h2 class="heading-2">Contact Us</h2>
+        <p class="text">Пингвины</p>
 
         <img src="images/logo.png" alt="Картинка клуба" width="150">
 
-        <h4>Address</h4>
-        <p>Тюмень</p>
+        <h4 class="heading-4">Address</h4>
+        <p class="text">Тюмень</p>
 
-        <h4>Phone</h4>
+        <h4 class="heading-4">Phone</h4>
         <ul>
             <li>+7 (999) 123-45-67</li>
             <li>+7 (999) 765-43-21</li>
         </ul>
 
-        <h4>Online service</h4>
+        <h4 class="heading-4">Online service</h4>
         <ul>
             <li><a href="https://example.com">Наш сайт</a></li>
             <li><a href="mailto:hello@example.com">Наша почта</a></li>
         </ul>
 
-        <p>Тюмень, улица Ленина, 123. Телефон +7 (999) 123-45-67.</p>
+        <p class="text">Тюмень, улица Ленина, 123. Телефон +7 (999) 123-45-67.</p>
 
-        <h4>Send us message</h4>
-        <form>
-            <p>
+        <h4 class="heading-4">Send us message</h4>
+        <form class="contact-form">
+            <p class="text">
                 <label for="full-name">full name</label><br>
-                <input type="text" id="full-name" name="full_name">
+                <input class="form-input" type="text" id="full-name" name="full_name">
             </p>
 
-            <p>
+            <p class="text">
                 <label for="email">email</label><br>
-                <input type="email" id="email" name="email">
+                <input class="form-input" type="email" id="email" name="email">
             </p>
 
-            <p>
+            <p class="text">
                 <label for="message">message</label><br>
-                <textarea id="message" name="message" rows="5" cols="30"></textarea>
+                <textarea class="form-input" id="message" name="message" rows="5" cols="30"></textarea>
             </p>
 
-            <button type="submit">submit</button>
+            <button class="submit-button" type="submit">submit</button>
         </form>
     </main>
 
     <hr>
 
     <footer>
-        <h3>Свяжитесь с нами</h3>
-        <p>Напишите нам про пингвинов</p>
+        <h3 class="heading-3">Свяжитесь с нами</h3>
+        <p class="text">Напишите нам про пингвинов</p>
         <hr>
         <ul>
             <li>Контакты для связи</li>
             <li>+7 (999) 123-45-67</li>
             <li>hello@example.com</li>
         </ul>
-        <p>Все права защищены</p>
+        <p class="text">Все права защищены</p>
     </footer>
 </body>
 </html>
